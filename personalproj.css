@@ -1,22 +1,26 @@
 *{
-	/*background-color: #3434e0;*/
-}
-	
+    /*font-family:"Arial"; */
 
-.col-3{
+}
+
+.col-4{
 	margin: auto auto;
 	text-align:center;
 	background-color:#1c17b3;
-	color: white;
+/*	color: white;*/
 	position: static;
 }	
 
-.col-3:hover{
+.col-4:hover{
 	background-color:#3434e0; 
 
 }
 
-p<.col-3{
+.link:hover{
+  color: white;
+}
+
+a<.col-4{
 	padding: auto;
 	font-family:"Arial"; 
 
@@ -33,6 +37,8 @@ p<.col-3{
   max-width: 1000px;
   position: relative;
   margin: auto;
+/*  background-color: gray;*/
+
 }
 
 /* Hide the images by default */
@@ -119,4 +125,10 @@ p<.col-3{
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+
+
+.link{
+  color: white;
 }
